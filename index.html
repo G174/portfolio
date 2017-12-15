@@ -18,30 +18,29 @@
 
 </head>
 
-<body>
+<body style="background: url(../public/assets/img/background-img.png);">
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <div class="brand-logo">
+        <a class="navbar-brand" href="/"><img src="./public/assets/img/GLlogocopy.png" alt="GL logo"></a>
+      </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="/">Home
                 <span class="sr-only">(current)</span>
               </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="https://www.linkedin.com/in/g-lam/">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="mailto:gracelam174@gmail.com ">Contact</a>
           </li>
         </ul>
       </div>
@@ -49,66 +48,90 @@
   </nav>
 
   <!-- Page Content -->
-  <div class="container">
+  <div class="container ">
 
     <!-- Jumbotron Header -->
-    <header class="jumbotron my-4">
-      <h1 class="display-3">A Warm Welcome!</h1>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-      <a href="#" class="btn btn-primary btn-lg">Call to action!</a>
+    <header class="jumbotron my-4 ">
+      <h1 class="display-3 ">
+        <div class="slide-left ">Hi, I am Grace.
+        </div>
+      </h1>
+      <p class="lead ">Former healthcare executive interested in front-end developer/ project management roles in Healthtech.</p>
+      <a href="mailto:gracelam174@gmail.com " class="btn btn-warning btn-lg ">Contact Me</a>
+
+      <div class="skillset ">
+        <br>
+        <div class="row">
+          <div class="col-lg-6 col-sm-6 ">
+            <h3>Languages</h3>
+            <p>HTML | CSS | Javascript | Ruby</p>
+          </div>
+          <div class="col-lg-6 col-sm-6 ">
+            <h3>Frameworks & Libraries</h3>
+            <p>jQuery | Node.js | Express | Rails | React </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-sm-6 ">
+            <h3>Databases</h3>
+            <p>MongoDB | PostgreSQL | Firebase</p>
+          </div>
+          <div class="col-md-6 col-sm-6 ">
+            <h3>Others</h3>
+            <p>Git | Heroku</p>
+          </div>
+        </div>
     </header>
 
     <!-- Page Features -->
-    <div class="row text-center">
+    <div class="row text-center ">
 
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+      <div class="col-lg-3 col-md-6 mb-4 ">
+        <div class="card ">
+          <img class="card-img-top " src="./public/assets/img/Medicate.png " alt="Project4:Medicate ">
+          <div class="card-body ">
+            <h4 class="card-title ">Medicate</h4>
+            <p class="card-text ">A listing of all licensed pharmacies taken from data.gov.sg API and displayed via google maps. Users can sign up to create an account and update their medication lists. Made using Reactjs and firebase. </p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <a href="http://medicate2017.herokuapps.com " class="btn btn-warning">View Project >></a>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+      <div class="col-lg-3 col-md-6 mb-4 ">
+        <div class="card ">
+          <img class="card-img-top " src="./public/assets/img/convene-home.png " alt="Project3:Convene ">
+          <div class="card-body ">
+            <h4 class="card-title ">Convene</h4>
+            <p class="card-text ">A geo-location consolidation platform allowing users to meet at a convenient location with restaurant recommendations.</p>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+          <div class="card-footer ">
+            <a href="https://convene3.herokuapp.com/ " class="btn btn-warning ">View Project >></a>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+      <div class="col-lg-3 col-md-6 mb-4 ">
+        <div class="card ">
+          <img class="card-img-top " src="./public/assets/img/Medicate-proj2.png " alt="Project2: Medicate ">
+          <div class="card-body ">
+            <h4 class="card-title ">Proj2: Medicate</h4>
+            <p class="card-text ">First edition of Medicate. Made using JavaScript and MongoDB.</p>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+          <div class="card-footer ">
+            <a href="https://proj2grace.herokuapp.com/ " class="btn btn-warning ">View Project >></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4 ">
+        <div class="card ">
+          <img class="card-img-top " src="./public/assets/img/cutqs.png " alt="CutQs ">
+          <div class="card-body ">
+            <h4 class="card-title ">CutQs</h4>
+            <p class="card-text ">NTU 2017 Ideasinc 2nd Runner Up.<br> App seeks to modify consumer decision, influencing them to make healthier choices upon selection. Entices users with the convienice of mobile checkout. Mobile app created using MIT Appinventor.</p>
           </div>
         </div>
       </div>
@@ -116,20 +139,20 @@
     </div>
     <!-- /.row -->
 
-  </div>
-  <!-- /.container -->
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
     </div>
     <!-- /.container -->
-  </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark ">
+      <div class="container ">
+        <p class="m-0 text-center text-white ">Copyright &copy; Grace Lam 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js "></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
 
 </body>
 
